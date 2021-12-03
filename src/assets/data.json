@@ -1,0 +1,73 @@
+[
+    {
+    "cust_Id":"1",
+    "name":"Ganesh",
+    "addres":"SK YARD 231",
+    "email":"Gani@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"2",
+    "name":"Suresh",
+    "addres":"SK YARD 231",
+    "email":"sur@gmail.com",
+    "phoneno":"789888976"
+   },
+   {
+    "cust_Id":"3",
+    "name":"sky",
+    "addres":"SK YARD 231",
+    "email":"sky@gmail.com",
+    "phoneno":"72198866"
+   },
+   {
+    "cust_Id":"4",
+    "name":"Yadava",
+    "addres":"yadava 231",
+    "email":"yadava@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"5",
+    "name":"Dhoni",
+    "addres":"DHONI YARD 231",
+    "email":"dhoni@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"6",
+    "name":"kohli",
+    "addres":"SK YARD 231",
+    "email":"kohli@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"7",
+    "name":"panth",
+    "addres":"panth YARD 231",
+    "email":"panth@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"8",
+    "name":"Rain",
+    "addres":"Rain YARD 231",
+    "email":"rain@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"9",
+    "name":"Virat",
+    "addres":"virat 231",
+    "email":"virat@gmail.com",
+    "phoneno":"789886666"
+   },
+   {
+    "cust_Id":"10",
+    "name":"Vigne",
+    "addres":"vigYARD 231",
+    "email":"vig@gmail.com",
+    "phoneno":"789886666"
+   }
+
+]

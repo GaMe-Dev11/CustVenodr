@@ -1,0 +1,31 @@
+<app-header
+  [navbarBrandRouterLink]="['/client/home']"
+  [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/avatars/new_mdex.png', width: 140, height: 50, alt: 'Mdex Logo'}"
+  [navbarBrandMinimized]="{src: 'assets/img/avatars/favicon.png', width: 42, height: 42, alt: 'Mdex Logo'}"
+  [sidebarToggler]="'lg'"
+  [asideMenuToggler]="'lg'">
+  <ul class="nav navbar-nav ml-auto">
+   </ul>
+</app-header>
+<div  class="app-body">
+  <app-sidebar  #appSidebar [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)">
+    <app-sidebar-nav  [navItems]="navs" [perfectScrollbar] [disabled]="appSidebar.minimized"></app-sidebar-nav>
+    <app-sidebar-minimizer  ></app-sidebar-minimizer>
+  </app-sidebar>
+  <!-- Main content -->
+  <main class="main">
+    <cui-breadcrumb>
+    </cui-breadcrumb>
+   
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div><!-- /.container-fluid -->
+  </main>
+ 
+</div>
+<app-footer style="text-align: center;">
+  &nbsp;&nbsp;<span style="text-align:center;">
+    2021 Â© Copyright | All Right Reserved
+  </span>
+</app-footer>
